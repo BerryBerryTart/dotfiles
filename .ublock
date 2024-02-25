@@ -1,0 +1,35 @@
+! YouTube Video Annotations
+www.youtube.com##.ytp-ce-element
+www.youtube.com##.ytp-ce-covering-overlay
+www.youtube.com##.ytp-cards-teaser-text
+www.youtube.com##.ytp-cards-button-icon-default
+www.youtube.com##.annotation-type-text.annotation
+www.youtube.com##.ytp-scroll-min.ytp-pause-overlay
+www.youtube.com###offer-module > .ytd-watch.style-scope
+www.youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape
+www.youtube.com##.annotation-type-text.annotation-speech-shape.annotation-shape
+www.youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(3)
+www.youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(7)
+www.youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(5)
+
+! xitter.com
+!bookmarks
+twitter.com##[data-testid="tweet"][tabindex="-1"] [role="group"]:not([id]) > div > div
+twitter.com##div:has( > div[aria-label="Bookmark"])
+!views
+twitter.com##[data-testid="tweet"][tabindex="-1"] div[aria-hidden="true"]:nth-child(2):nth-last-child(2)
+twitter.com##[data-testid="tweet"][tabindex="-1"] div[aria-hidden="true"]:nth-child(2):nth-last-child(2) + div[dir]:last-child
+twitter.com##[data-testid="tweet"][tabindex="0"] [role="group"]:not(.buffer-inserted) > div:nth-of-type(4)
+!mobile views
+twitter.com##[data-testid="tweet"][tabindex="0"] [role="group"]:not(.buffer-inserted) > div:nth-child(4):nth-last-child(2)
+twitter.com##[data-testid="tweet"][tabindex="0"] [role="group"].buffer-inserted > div:nth-child(4):nth-last-child(2)
+!other shit
+twitter.com##a[href='/i/twitter_blue_sign_up']
+twitter.com##a[href='/i/verified-orgs-signup']
+twitter.com##a[href='/i/verified-choose']
+twitter.com##a[href$='/communities']
+twitter.com##aside[aria-label="Get Verified"]
+!analytics
+twitter.com##a[href$="analytics"][role="link"]
+!Highlights
+twitter.com##div:has( > a[href$="highlights"])
